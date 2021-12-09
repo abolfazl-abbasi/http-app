@@ -1,0 +1,41 @@
+.newComment{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgb(171, 226, 235);
+  color: rgb(34, 34, 255);
+  width: 700px;
+  height: 250px;
+  margin: 20px auto;
+  border-radius: 10px;
+  
+}
+
+.newComment input ,.newComment textarea{
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  resize: none;
+}
+
+.newComment input:focus ,.newComment textarea:focus{
+  outline: none;
+  border: 2px solid rgb(136, 0, 209);
+  
+}
+
+.newComment button{
+  padding: 3px 12px;
+  border: 2px solid rgb(136, 0, 209);
+  background-color: white;
+  color: rgb(136, 0, 209);
+  border-radius: 7px;
+  transition: background-color .3s;
+}
+
+.newComment button:hover{
+  background-color: rgb(136, 0, 209);
+  color: white;
+}
